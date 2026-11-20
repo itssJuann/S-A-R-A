@@ -1,0 +1,134 @@
+======================================================================================
+  SARA - Sistema de Alerta Temprana y Retencion Academica
+  USUARIOS DE DEMOSTRACION
+======================================================================================
+
+  LA CONTRASENA DE TODOS LOS USUARIOS ES:   sara2026
+
+  Aplicacion:  http://127.0.0.1:8000
+  API (docs):  http://127.0.0.1:8000/docs
+
+--------------------------------------------------------------------------------------
+  PARA LA SUSTENTACION: un usuario por rol
+--------------------------------------------------------------------------------------
+  ADMINISTRADOR   admin@uninorte.edu.co              sara2026
+  COORDINADOR     coord.isc@uninorte.edu.co          sara2026
+  CONSEJERO       juan.isc@uninorte.edu.co           sara2026
+  BIENESTAR       bienestar@uninorte.edu.co          sara2026
+  DOCENTE         carlos.isc@uninorte.edu.co         sara2026
+  ESTUDIANTE      daniela.0@uninorte.edu.co          sara2026
+
+  Sugerencia: entra con el coordinador y con el consejero del mismo programa,
+  uno despues del otro, para mostrar que sobre los mismos casos cada uno ve
+  una parte distinta del sistema.
+
+
+======================================================================================
+  ADMINISTRADOR   (1 usuario)
+======================================================================================
+   Alcance: Toda la institucion. Ademas configura los pesos del modelo de riesgo.
+
+   CORREO                             CONTRASENA   NOMBRE                     PROGRAMA
+   ---------------------------------- ------------ -------------------------- ----------------------
+   admin@uninorte.edu.co              sara2026     Administrador SARA         -
+
+======================================================================================
+  COORDINADOR   (4 usuarios)
+======================================================================================
+   Alcance: Solo su programa: estudiantes en riesgo, casos, indicadores y bitacora.
+   Puede abrir, reasignar, cerrar y reabrir casos.
+
+   CORREO                             CONTRASENA   NOMBRE                     PROGRAMA
+   ---------------------------------- ------------ -------------------------- ----------------------
+   coord.isc@uninorte.edu.co          sara2026     Laura Sánchez (ISC)        Ingeniería de Sistemas y Computación
+   coord.iin@uninorte.edu.co          sara2026     Laura Sánchez (IIN)        Ingeniería Industrial
+   coord.psi@uninorte.edu.co          sara2026     Laura Sánchez (PSI)        Psicología
+   coord.der@uninorte.edu.co          sara2026     Laura Sánchez (DER)        Derecho
+
+======================================================================================
+  CONSEJERO   (8 usuarios)
+======================================================================================
+   Alcance: Solo los estudiantes de los casos que tiene asignados.
+   Registra intervenciones, agenda citas y deriva a bienestar.
+
+   CORREO                             CONTRASENA   NOMBRE                     PROGRAMA
+   ---------------------------------- ------------ -------------------------- ----------------------
+   juan.isc@uninorte.edu.co           sara2026     Juan Pérez                 Ingeniería de Sistemas y Computación
+   ana.isc@uninorte.edu.co            sara2026     Ana Gil                    Ingeniería de Sistemas y Computación
+   juan.iin@uninorte.edu.co           sara2026     Juan Pérez                 Ingeniería Industrial
+   ana.iin@uninorte.edu.co            sara2026     Ana Gil                    Ingeniería Industrial
+   juan.psi@uninorte.edu.co           sara2026     Juan Pérez                 Psicología
+   ana.psi@uninorte.edu.co            sara2026     Ana Gil                    Psicología
+   juan.der@uninorte.edu.co           sara2026     Juan Pérez                 Derecho
+   ana.der@uninorte.edu.co            sara2026     Ana Gil                    Derecho
+
+======================================================================================
+  BIENESTAR   (1 usuario)
+======================================================================================
+   Alcance: Solo los casos con derivacion a bienestar. Indicadores institucionales.
+
+   CORREO                             CONTRASENA   NOMBRE                     PROGRAMA
+   ---------------------------------- ------------ -------------------------- ----------------------
+   bienestar@uninorte.edu.co          sara2026     Paola Restrepo             -
+
+======================================================================================
+  DOCENTE   (8 usuarios)
+======================================================================================
+   Alcance: Solo las asignaturas que dicta: registra notas e inasistencias por corte.
+
+   CORREO                             CONTRASENA   NOMBRE                     PROGRAMA
+   ---------------------------------- ------------ -------------------------- ----------------------
+   carlos.isc@uninorte.edu.co         sara2026     Carlos Medina              Ingeniería de Sistemas y Computación
+   elena.isc@uninorte.edu.co          sara2026     Elena Ramos                Ingeniería de Sistemas y Computación
+   carlos.iin@uninorte.edu.co         sara2026     Carlos Medina              Ingeniería Industrial
+   elena.iin@uninorte.edu.co          sara2026     Elena Ramos                Ingeniería Industrial
+   carlos.psi@uninorte.edu.co         sara2026     Carlos Medina              Psicología
+   elena.psi@uninorte.edu.co          sara2026     Elena Ramos                Psicología
+   carlos.der@uninorte.edu.co         sara2026     Carlos Medina              Derecho
+   elena.der@uninorte.edu.co          sara2026     Elena Ramos                Derecho
+
+======================================================================================
+  ESTUDIANTE   (30 usuarios)
+======================================================================================
+   Alcance: Solo su propia ficha: su nivel, sus notas por corte, sus compromisos y su proxima cita.
+
+   CORREO                             CONTRASENA   NOMBRE                     PROGRAMA
+   ---------------------------------- ------------ -------------------------- ----------------------
+   daniela.0@uninorte.edu.co          sara2026     Daniela Ortiz Mendoza      Ingeniería de Sistemas y Computación (sem 6)
+   mateo.1@uninorte.edu.co            sara2026     Mateo Restrepo Gil         Ingeniería Industrial (sem 6)
+   valentina.2@uninorte.edu.co        sara2026     Valentina Gómez Ruiz       Psicología (sem 8)
+   samuel.3@uninorte.edu.co           sara2026     Samuel Pérez Lara          Derecho (sem 4)
+   camila.4@uninorte.edu.co           sara2026     Camila Núñez Soto          Ingeniería de Sistemas y Computación (sem 6)
+   andrés.5@uninorte.edu.co           sara2026     Andrés Mejía Vargas        Ingeniería Industrial (sem 5)
+   sofía.6@uninorte.edu.co            sara2026     Sofía Cárdenas Peña        Psicología (sem 8)
+   julián.7@uninorte.edu.co           sara2026     Julián Vargas Mora         Derecho (sem 5)
+   isabella.8@uninorte.edu.co         sara2026     Isabella Mora Díaz         Ingeniería de Sistemas y Computación (sem 3)
+   tomás.9@uninorte.edu.co            sara2026     Tomás Vélez Cano           Ingeniería Industrial (sem 5)
+   laura.10@uninorte.edu.co           sara2026     Laura Hoyos Ríos           Psicología (sem 8)
+   nicolás.11@uninorte.edu.co         sara2026     Nicolás Vera Pardo         Derecho (sem 8)
+   mariana.12@uninorte.edu.co         sara2026     Mariana Ruiz Salas         Ingeniería de Sistemas y Computación (sem 3)
+   luis.13@uninorte.edu.co            sara2026     Luis Parra Nieto           Ingeniería Industrial (sem 8)
+   juliana.14@uninorte.edu.co         sara2026     Juliana Serna Olaya        Psicología (sem 3)
+   emilio.15@uninorte.edu.co          sara2026     Emilio Castaño Vega        Derecho (sem 3)
+   antonia.16@uninorte.edu.co         sara2026     Antonia Rojas Lema         Ingeniería de Sistemas y Computación (sem 5)
+   sebastián.17@uninorte.edu.co       sara2026     Sebastián Lima Cruz        Ingeniería Industrial (sem 5)
+   paula.18@uninorte.edu.co           sara2026     Paula Jiménez Arias        Psicología (sem 4)
+   felipe.19@uninorte.edu.co          sara2026     Felipe Duarte Rangel       Derecho (sem 7)
+   sara.20@uninorte.edu.co            sara2026     Sara Benítez Cuervo        Ingeniería de Sistemas y Computación (sem 6)
+   martín.21@uninorte.edu.co          sara2026     Martín Olarte Gaitán       Ingeniería Industrial (sem 3)
+   gabriela.22@uninorte.edu.co        sara2026     Gabriela Pinto Lozano      Psicología (sem 7)
+   simón.23@uninorte.edu.co           sara2026     Simón Aguirre Rico         Derecho (sem 3)
+   manuela.24@uninorte.edu.co         sara2026     Manuela Quintero Bravo     Ingeniería de Sistemas y Computación (sem 4)
+   jerónimo.25@uninorte.edu.co        sara2026     Jerónimo Salas Mesa        Ingeniería Industrial (sem 8)
+   luciana.26@uninorte.edu.co         sara2026     Luciana Bedoya Cera        Psicología (sem 6)
+   alejandro.27@uninorte.edu.co       sara2026     Alejandro Niño Pinilla     Derecho (sem 8)
+   renata.28@uninorte.edu.co          sara2026     Renata Zapata Correa       Ingeniería de Sistemas y Computación (sem 4)
+   esteban.29@uninorte.edu.co         sara2026     Esteban Molina Vidal       Ingeniería Industrial (sem 8)
+
+======================================================================================
+  NOTA
+======================================================================================
+   Estas credenciales son de los datos de demostracion que genera 'python -m app.seed'.
+   Si vuelves a sembrar la base, los correos y la contrasena siguen siendo los mismos.
+   La contrasena se guarda cifrada con bcrypt: en la base de datos no aparece en texto plano.
+
